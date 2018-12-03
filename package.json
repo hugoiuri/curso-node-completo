@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Do zero ao deploy com Node.js",
   "main": "index.js",
+  "engines": {
+    "node": ">=10.14.1"
+  },
   "scripts": {
     "mocha": "export NODE_ENV=dev && _mocha",
     "test": "export NODE_ENV=dev && _mocha",
