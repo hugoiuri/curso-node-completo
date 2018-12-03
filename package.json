@@ -4,7 +4,8 @@
   "description": "Do zero ao deploy com Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "mocha": "export NODE_ENV=dev && _mocha",
+    "start": "export NODE_ENV=dev && node index.js"
   },
   "repository": {
     "type": "git",
