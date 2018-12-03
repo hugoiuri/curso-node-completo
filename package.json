@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "mocha": "export NODE_ENV=dev && _mocha",
+    "test": "export NODE_ENV=dev && _mocha",
     "start": "export NODE_ENV=dev && node index.js"
   },
   "repository": {
