@@ -7,6 +7,7 @@ process.title = pkg.name;
 
 const shutdown = async () => {
   console.info('Gracefully shutdown in progress');
+  await server.stop();
   process.exit(0);
 };
 
